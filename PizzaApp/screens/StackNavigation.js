@@ -14,10 +14,10 @@ const StackNavigation = () => {
   return (
     <NavigationContainer>
         <Stack.Navigator>
-            <Stack.Screen name='hhh' component={MainScreen} options={{headerShown: false}} />
-            <Stack.Screen name="SecondScreen" component={SecondScreen} options={{title: 'Uncle Jhon Pizzas'}} />
-            <Stack.Screen name="ThirdScreen" component={ThirdScreen} options={{title: 'Uncle Jhon Pizzas'}} />
-            <Stack.Screen name="ForthScreen" component={ForthScreen} options={{title: 'Uncle Jhon Pizzas'}} />
+            <Stack.Screen name='MainScreen' component={MainScreen} options={{headerShown: false}} />
+            <Stack.Screen name="SecondScreen" component={SecondScreen} options={{title: 'Uncle John Pizzas'}} />
+            <Stack.Screen name="ThirdScreen" component={ThirdScreen} options={{title: 'Uncle John Pizzas'}} />
+            <Stack.Screen name="ForthScreen" component={ForthScreen} options={{title: 'Uncle John Pizzas'}} />
         </Stack.Navigator>
     </NavigationContainer>
   )
