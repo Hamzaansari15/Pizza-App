@@ -14,7 +14,7 @@ const MainScreen = ({ navigation }) => {
             <View style={styles.container}>
                 <View style={styles.header}>
                     <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                        <TouchableOpacity onPress={() => alert('hamza')}>
+                        <TouchableOpacity onPress={() => alert('Under Working')}>
                             <Image style={styles.menu_button} source={require('../images/icon/menu.png')} />
                         </TouchableOpacity>
                         <Text style={styles.menu_text}>
